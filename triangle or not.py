@@ -1,4 +1,4 @@
-# these there inputs takes the lengths of the sides of a triangle you are trying to make:
+# these three inputs takes the lengths of the sides of a triangle you are trying to make:
 x1 = int((input("What is the first side length?: \n")))
 x2 = int((input("What is the second side length?: \n")))
 x3 = int(input("What is the third side length?: \n"))
