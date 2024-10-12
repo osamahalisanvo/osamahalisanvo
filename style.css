@@ -1,0 +1,66 @@
+/* General Styles */
+body, html {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f4f4f9;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Input and Button Styles */
+  input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Room List Styles */
+  .room {
+    display: block;
+    background: #007bff;
+    color: #fff;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .room:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Message Area */
+  #messages {
+    border: 1px solid #ddd;
+    height: 200px;
+    overflow-y: scroll;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: left;
+  }
+  
